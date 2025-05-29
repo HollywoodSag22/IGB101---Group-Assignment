@@ -22230,7 +22230,7 @@ PrefabInstance:
     - target: {fileID: 2664611327364787940, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 8e1a7450436a44e4d8aa11abcec81a40, type: 2}
+      objectReference: {fileID: 9100000, guid: 0b6f9e200e794df4c9e5f1f061044902, type: 2}
     - target: {fileID: 2664611327364787940, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 1
@@ -23506,16 +23506,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1183664194}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b3d02e2520910489404d8e017ba175, type: 3}
+  m_Script: {fileID: 11500000, guid: 1f7cc3911a184a944a18bf2b3417c7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CameraTarget: {fileID: 1064389281}
+  CameraTarget: {fileID: 0}
   cameraSpeed: 5
   invert: 0
-  upAngleView: 60
-  downAngleView: 45
-  MaxViewDistance: 6
-  MinViewDistance: 6
+  upAngleView: 45
+  downAngleView: 65
+  MaxViewDistance: 15
+  MinViewDistance: 1
   ZoomRate: 20
   cameraTargetHeight: 1
 --- !u!1 &1289863334
