@@ -11248,7 +11248,7 @@ Transform:
   m_GameObject: {fileID: 405596821}
   serializedVersion: 2
   m_LocalRotation: {x: -0.6882667, y: -0, z: -0, w: 0.7254577}
-  m_LocalPosition: {x: -241.36, y: -450.63, z: 161.28}
+  m_LocalPosition: {x: -241.36, y: -450.76, z: 161.27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11326,7 +11326,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 20964840a673078429fd26e25c113e08, type: 2}
+  - {fileID: 2100000, guid: cab0928dc01b61243804abe544ee2f0e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17396,6 +17396,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 758834307}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &750915250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 55e887bbe7cb6c94f9b6df7f65b5bb87, type: 3}
+  m_PrefabInstance: {fileID: 1728111991}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &758834306
 GameObject:
   m_ObjectHideFlags: 0
@@ -26728,7 +26733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46936499ed04f5543947348ab51b454e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 166
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 46936499ed04f5543947348ab51b454e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -26745,7 +26750,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 46936499ed04f5543947348ab51b454e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1768634511}
   m_SourcePrefab: {fileID: 100100000, guid: 46936499ed04f5543947348ab51b454e, type: 3}
 --- !u!4 &1214845495 stripped
 Transform:
@@ -27061,6 +27069,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 55e887bbe7cb6c94f9b6df7f65b5bb87, type: 3}
   m_PrefabInstance: {fileID: 1728111991}
   m_PrefabAsset: {fileID: 0}
+--- !u!111 &1339968433
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750915250}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 10751584015d87a43b6ddaaf6ef9be2e, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 10751584015d87a43b6ddaaf6ef9be2e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1001 &1347676709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34163,7 +34188,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 55e887bbe7cb6c94f9b6df7f65b5bb87, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1339968433}
   m_SourcePrefab: {fileID: 100100000, guid: 55e887bbe7cb6c94f9b6df7f65b5bb87, type: 3}
 --- !u!1001 &1753367231
 PrefabInstance:
@@ -34232,13 +34260,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bf33d1c459aa34e4d8bed6558b935aac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1966071663}
   m_SourcePrefab: {fileID: 100100000, guid: bf33d1c459aa34e4d8bed6558b935aac, type: 3}
 --- !u!4 &1767311209 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4580220760457062, guid: fdec2343e28e33541bc788a20ed6fa4a, type: 3}
   m_PrefabInstance: {fileID: 875540079}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1768634508 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 46936499ed04f5543947348ab51b454e, type: 3}
+  m_PrefabInstance: {fileID: 1208831545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &1768634511
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768634508}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 10751584015d87a43b6ddaaf6ef9be2e, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 10751584015d87a43b6ddaaf6ef9be2e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1001 &1781572383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35642,6 +35695,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4508425884730540, guid: b5bbd85c42f75ab4e88a9575bc5b5040, type: 3}
   m_PrefabInstance: {fileID: 557499062}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1966071660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bf33d1c459aa34e4d8bed6558b935aac, type: 3}
+  m_PrefabInstance: {fileID: 1753367231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &1966071663
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966071660}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Animation: {fileID: 7400000, guid: 10751584015d87a43b6ddaaf6ef9be2e, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 10751584015d87a43b6ddaaf6ef9be2e, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_UpdateMode: 0
+  m_CullingType: 0
 --- !u!1001 &2061388359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35888,7 +35963,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2130158134}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37ce62995aafb4613a09218b54e98752, type: 3}
+  m_Script: {fileID: 11500000, guid: 39d7cb1f7aa15304ca069dabfe2dc04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 2130158137}

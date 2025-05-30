@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Sienna Harvey/Scenes/Unity Museum.unity
     guid: 424fd50f9afadc54ab19c95767448b27
   - enabled: 1
+    path: Assets/Ryan Bramley/Scene/RyanB_scene.unity
+    guid: 4b7c47e5123e748be9f65bbfc053d853
+  - enabled: 1
     path: Assets/Matthew Argus/Scenes/Matthew.unity
     guid: 8603e19850017ea4aba8d711bde8f8a8
   m_configObjects:
