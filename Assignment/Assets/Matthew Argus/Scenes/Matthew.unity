@@ -26128,7 +26128,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4832728384080535756, guid: 92452f188b074a14a9f27f30e703264e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9176735352038516290}
   m_SourcePrefab: {fileID: 100100000, guid: 92452f188b074a14a9f27f30e703264e, type: 3}
 --- !u!1001 &8694111043409464688
 PrefabInstance:
@@ -26208,6 +26211,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8732423632230989224, guid: 92452f188b074a14a9f27f30e703264e, type: 3}
   m_PrefabInstance: {fileID: 6556361239646165003}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9176735352038516290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435988698744907705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c9fc776ba8e2f541b04d9452e84cabb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevel: RyanB_scene
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
