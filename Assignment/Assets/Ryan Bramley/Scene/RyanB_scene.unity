@@ -1148,7 +1148,7 @@ Transform:
   m_GameObject: {fileID: 750359748}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -60.09678, y: 31.448195, z: -59.823223}
+  m_LocalPosition: {x: -59.88, y: 31.448195, z: -59.823223}
   m_LocalScale: {x: 0.23077764, y: 3.7224, z: 3.7224}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1240,7 +1240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c9fc776ba8e2f541b04d9452e84cabb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevel: RyanB_scene
+  nextLevel: Sage Scene
 --- !u!1 &875591905 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2664611327374138500, guid: b001cb61a0b189d4394e77fcb27043d8, type: 3}
@@ -1260,7 +1260,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 875591905}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37ce62995aafb4613a09218b54e98752, type: 3}
+  m_Script: {fileID: 11500000, guid: 39d7cb1f7aa15304ca069dabfe2dc04d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 875591910}
